@@ -32,4 +32,4 @@ jobs:
           pipenv install --deploy --dev
       - name: Run test suite
         run: |
-          pipenv run test -svvv
+          pipenv run test -v
