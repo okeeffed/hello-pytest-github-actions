@@ -11,3 +11,8 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(3, 2) == 6
+
+
+def test_multiply():
+    raise Exception("Just did it!!!!!!!!")
+
